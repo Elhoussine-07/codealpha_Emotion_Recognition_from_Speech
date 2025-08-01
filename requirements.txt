@@ -1,0 +1,9 @@
+librosa
+numpy
+pandas
+tensorflow
+scikit-learn
+fastapi
+uvicorn
+streamlit
+requests
