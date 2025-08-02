@@ -1,0 +1,32 @@
+# Données EMO-DB
+
+Ce dossier contient les fichiers audio du corpus Berlin Database of Emotional Speech (EMO-DB).
+
+## Comment obtenir les données
+
+1. Visitez http://emodb.bilderbar.info/
+2. Téléchargez le corpus complet
+3. Extrayez les fichiers .wav dans ce dossier
+
+## Structure attendue
+
+```
+data/emodb/
+├── 03a01Fa.wav
+├── 03a01Nc.wav
+├── 03a01Wa.wav
+└── ... (autres fichiers .wav)
+```
+
+## Format des noms de fichiers
+
+Les noms de fichiers suivent le format : `XXaYYZz.wav`
+- XX : Numéro de session
+- a : Sexe du locuteur (a=male, b=female)
+- YY : Numéro d'énoncé
+- Z : Émotion (W=colère, L=ennui, E=dégoût, A=peur, F=joie, T=tristesse, N=neutre)
+- z : Intensité (a=forte, b=moyenne, c=faible, d=très faible)
+
+## Note
+
+Les fichiers audio ne sont pas inclus dans ce repository pour des raisons de taille.
